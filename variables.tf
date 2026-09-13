@@ -40,7 +40,7 @@ variable "load_balancing_scheme" {
 
 variable "ip_protocol" {
   description = "IP protocol for the forwarding rule (TCP, UDP, ESP, AH, SCTP, or ICMP)"
-  type        = string  
+  type        = string
 }
 
 variable "connection_draining_timeout_sec" {

@@ -165,6 +165,7 @@ Each backend in the `backends` list accepts the following attributes:
 | group | Full URL of the instance group or network endpoint group | `string` | yes |
 | balancing_mode | Balancing mode (CONNECTION, RATE, UTILIZATION) | `string` | no |
 | capacity_scaler | Multiplier for backend capacity (0.0 to 1.0) | `number` | no |
+| max_utilization | Target CPU utilization ratio (0.0 to 1.0) for UTILIZATION balancing mode | `number` | no |
 | max_rate_per_instance | Maximum requests per second per instance | `number` | no |
 | max_rate_per_endpoint | Maximum requests per second per endpoint | `number` | no |
 
